@@ -17,10 +17,162 @@
         <link rel="stylesheet" type="text/css" href="css/styles.css" />
     </head>
     <body>
-        <nav class="navbar navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-dark primary fixed-top">
+            <a class="navbar-brand" href="#header">
+                <i class="material-icons-round" style="margin-right: 10px;">queue_music</i>
                 MusicQueue
             </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="assests/icons/menu.svg">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div id="navbar-nav" class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#header" data-toggle="collapse" data-target=".navbar-collapse">
+                        Home
+                    </a>
+                    <a class="nav-item nav-link" href="#team" data-toggle="collapse" data-target=".navbar-collapse">
+                        Team
+                    </a>
+                    <a class="nav-item nav-link" href="#features" data-toggle="collapse" data-target=".navbar-collapse">
+                        Features
+                    </a>
+                    <a class="nav-item nav-link" href="#download" data-toggle="collapse" data-target=".navbar-collapse">
+                        Download
+                    </a>
+                    <a class="nav-item nav-link" href="#deliverables" data-toggle="collapse" data-target=".navbar-collapse">
+                        Deliverables
+                    </a>
+                </div>
+            </div>
         </nav>
+        <div id="header" class="container-fluid primary">
+            <div class="container header text-center">
+                <h1>Welcome to MusicQueue</h1>
+                <h5>A crowdsourced music playlist service</h5>
+                <div class="button-row">
+                    <a class="btn secondary" href="#download" style="margin-right: 10px;">
+                        Download
+                    </a>
+                    <a class="btn" href="#overview">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="content" class="container-fluid">
+            <div id="overview" class="container">
+                <h2>Project Overview</h2>
+                <div class="spacer-line"></div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+            <div id="goals" class="container">
+                <h2>Project Goals</h2>
+                <div class="spacer-line"></div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Vulputate odio ut enim blandit volutpat maecenas volutpat. Volutpat maecenas volutpat blandit aliquam etiam erat velit. Ut
+                    venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Est pellentesque elit ullamcorper dignissim cras tincidunt
+                    lobortis feugiat. Pulvinar neque laoreet suspendisse interdum consectetur. Ac tortor dignissim convallis aenean et. Id leo in
+                    vitae turpis. Amet mauris commodo quis imperdiet massa tincidunt. Elit duis tristique sollicitudin nibh sit amet commodo.
+                    Morbi tristique senectus et netus. Imperdiet sed euismod nisi porta lorem mollis aliquam. Dolor sed viverra ipsum nunc aliquet
+                    bibendum enim facilisis gravida. Vel eros donec ac odio tempor orci dapibus ultrices.
+                </p>
+            </div>
+            <div id="features" class="container">
+                <h2>Features</h2>
+                <div class="spacer-line"></div>
+                <div class="card-deck">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Feature one</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Feature two</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                            <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Feature three</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                            <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="preview" class="container">
+                <h2>Preview</h2>
+                <div class="spacer-line"></div>
+                <p style="font-style: italic;">
+                    Images of the application will go here.
+                </p>
+            </div>
+            <div id="download" class="container">
+                <h2>Download</h2>
+                <div class="spacer-line"></div>
+                <img src="assests/img/googleplay.png" height="72px" alt="Google Play Store Download">
+            </div>
+            <div id="team" class="container">
+                <h2>Our Team</h2>
+                <div class="spacer-line"></div>
+                <div class="card-deck">
+                    <div class="card team-member">
+                        <img class="profile" src="assests/img/henry-profile.png" class="card-img-top" alt="Henry Bugajski">
+                        <div class="card-body">
+                            <h5 class="card-title">Henry Bugajski</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">hjbugajski@crimson.ua.edu</h6>
+                        </div>
+                    </div>
+                    <div class="card team-member">
+                        <img class="profile" src="assests/img/profile.png" class="card-img-top" alt="Jacob Brookins">
+                        <div class="card-body">
+                            <h5 class="card-title">Jacob Brookins</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">wjbrookins@crimson.ua.edu</h6>
+                        </div>
+                    </div>
+                    <div class="card team-member">
+                        <img class="profile" src="assests/img/profile.png" class="card-img-top" alt="Jay Cunningham">
+                        <div class="card-body">
+                            <h5 class="card-title">Jay Cunningham</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">jlittle2@crimson.ua.edu</h6>
+                        </div>
+                    </div>
+                    <div class="card team-member">
+                        <img class="profile" src="assests/img/profile.png" class="card-img-top" alt="Dillon Long">
+                        <div class="card-body">
+                            <h5 class="card-title">Dillon Long</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">dplong@crimson.ua.edu</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="deliverables" class="container">
+                <h2>Deliverables</h2>
+                <div class="spacer-line"></div>
+                <p style="font-style: italic;">
+                    Deliverables will go here.
+                </p>
+            </div>
+        </div>
+        <nav class="navbar navbar-dark primary footer">
+            <div class="navbar-brand">
+                <i class="material-icons-round" style="margin-right: 10px;">queue_music</i>
+                MusicQueue
+            </div>
+        </nav>
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="js/js.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>

@@ -1,0 +1,161 @@
+:root {
+    --font-primary: 'Lexend Deca', sans-serif;
+    --font-secondary: 'Roboto', sans-serif;
+    --font-color-light: #FAFAFA;
+
+    --color-primary: #FFA000;
+    --color-dark: #212121;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    background: var(--color-dark);
+    color: var(--font-color-light);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-primary);
+    color: var(--color-primary);
+}
+
+.primary {
+    background: var(--color-primary);
+    color: var(--color-dark);
+}
+
+.secondary {
+    background: var(--color-dark);
+    color: var(--font-color-light);
+}
+
+/* ********** Nav Bar / Header ********** */
+
+nav {
+    font-family: var(--font-primary);
+    color: var(--color-dark);
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--color-dark) !important;
+    padding: 8px;
+}
+
+.nav-item {
+    color: #424242 !important;
+}
+
+.nav-item.active {
+    color: var(--color-dark) !important;
+    border-bottom: 2px solid var(--color-dark);
+}
+
+.navbar-dark .navbar-toggler {
+    color: var(--color-dark) !important;
+    border: none !important;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 56px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.header h1 {
+    color: var(--color-dark);
+}
+
+.header h5 {
+    font-style: italic;
+    color: var(--color-dark);
+}
+
+.header .button-row {
+    margin-top: 15px;
+}
+
+.header .button-row a.secondary:hover {
+    color: var(--color-primary)!important;
+}
+
+/* ********** Home Page Content ********** */
+
+#content .container {
+    margin-top: 50px;
+}
+
+.spacer-line {
+    height: 2px;
+    width: 100px;
+    background: var(--color-primary);
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card {
+    background: var(--color-primary);
+    border-radius: 10px;
+    color: var(--color-dark);
+}
+
+.card h5 {
+    color: var(--color-dark);
+}
+
+.card.team-member {
+    width: auto !important;
+    height: auto !important;
+}
+
+.card.team-member .card-subtitle.mb-2.text-muted {
+    color: #424242 !important;
+    margin-bottom: 0px;
+    font-family: var(--font-secondary);
+}
+
+.card img.profile {
+    height: 192px;
+    width: auto;
+    border-radius: 10px;
+}
+
+/* ********** Footer ********** */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 50px;
+}
+
+/* ********** Mobile ********** */
+@media screen and (max-width: 460px) {
+    .header h1 {
+        font-size: 26px;
+    }
+
+    .header h5 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .header h1 {
+        font-size: 20px;
+    }
+
+    * > * h2 {
+        font-size: 28px;
+    }
+}

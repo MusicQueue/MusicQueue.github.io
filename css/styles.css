@@ -101,6 +101,17 @@ nav {
     margin-bottom: 15px;
 }
 
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-container .card {
+    margin-right: 15px;
+    margin-bottom: 25px;
+}
+
 .card {
     background: var(--color-primary);
     border-radius: 10px;
@@ -112,7 +123,7 @@ nav {
 }
 
 .card.team-member {
-    width: auto !important;
+    width: 258px !important;
     height: auto !important;
 }
 
@@ -123,8 +134,8 @@ nav {
 }
 
 .card img.profile {
-    height: 192px;
-    width: auto;
+    height: 192px !important;
+    width: 256px !important;
     border-radius: 10px;
 }
 
@@ -148,16 +159,6 @@ nav {
     .header h5 {
         font-size: 14px;
     }
-
-    .card.team-member {
-        width: 258px !important;
-    }
-
-    .card img.profile {
-        height: 192px;
-        width: 256px;
-        border-radius: 10px;
-    }
 }
 
 @media screen and (max-width: 360px) {
@@ -167,5 +168,18 @@ nav {
 
     * > * h2 {
         font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .card.team-member {
+        width: 243px !important;
+        height: auto !important;
+    }
+
+    .card img.profile {
+        height: 192px !important;
+        width: 241px !important;
+        border-radius: 10px;
     }
 }

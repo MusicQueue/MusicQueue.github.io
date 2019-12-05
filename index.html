@@ -64,23 +64,20 @@
                 <h2>Project Overview</h2>
                 <div class="spacer-line"></div>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    MusicQueue is an Android applications that allows people hosting parties, events, or managing bars to create a
+                    crowd sourced music queue playlist. The queues created and geo-tagged so that the user can find the queue locations
+                    nearest to them and allows them to easily see what type of music is playing and gives them the ability to add songs 
+                    that they wish to hear.
                 </p>
             </div>
             <div id="goals" class="container">
                 <h2>Project Goals</h2>
                 <div class="spacer-line"></div>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Vulputate odio ut enim blandit volutpat maecenas volutpat. Volutpat maecenas volutpat blandit aliquam etiam erat velit. Ut
-                    venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Est pellentesque elit ullamcorper dignissim cras tincidunt
-                    lobortis feugiat. Pulvinar neque laoreet suspendisse interdum consectetur. Ac tortor dignissim convallis aenean et. Id leo in
-                    vitae turpis. Amet mauris commodo quis imperdiet massa tincidunt. Elit duis tristique sollicitudin nibh sit amet commodo.
-                    Morbi tristique senectus et netus. Imperdiet sed euismod nisi porta lorem mollis aliquam. Dolor sed viverra ipsum nunc aliquet
-                    bibendum enim facilisis gravida. Vel eros donec ac odio tempor orci dapibus ultrices.
+                    <ul>
+                        <li>Bring the power of flexibility and control over music in order to enhance user social experience.</li>
+                        <li>Learn how to develop and Android application with Firebase Cloud Firestore, GeoFirestore, and Google Places API</li>
+                    </ul>
                 </p>
             </div>
             <div id="features" class="container">
@@ -89,23 +86,32 @@
                 <div class="card-deck">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Feature one</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                            <h5 class="card-title">Queues</h5>
+                            <p class="card-text">
+                                The queue page allows people to creaet a queue at a specific location. This allows for other users to see
+                                the queues nearest to them. The queue page also allows a user to favorite the queue and see the current
+                                amount of songs in each queue. By clicking on a queue, the songs for that particular queue are displayed.
+                                Users are then able to up vote or down vote songs to help decide what gets played.
+                            </p>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Feature two</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                            <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                            <h5 class="card-title">Favorites</h5>
+                            <p class="card-text">
+                                The favorites page lists the user's favorited queues. This provides a quick way for the users to navigate to
+                                the queues that they frequent most often.
+                            </p>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Feature three</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                            <h5 class="card-title">Library</h5>
+                            <p class="card-text">
+                                The library page displays the user's songs that they have added to queues. It also has the ability to add songs from
+                                their library directly to a queue so they do not have to spend time manually adding songs to a queue. Users also have
+                                the ability to delete songs from their library by long pressing on the song card.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -113,14 +119,24 @@
             <div id="preview" class="container">
                 <h2>Preview</h2>
                 <div class="spacer-line"></div>
-                <p style="font-style: italic;">
-                    Images of the application will go here.
-                </p>
+                <div class="screen-shot" style="height: auto;">
+                    <img src="assests/img/screen_shot_queues.png">
+                    <img src="assests/img/screen_shot_songs.png">
+                    <img src="assests/img/screen_shot_favorites.png">
+                    <img src="assests/img/screen_shot_library.png">
+                    <img src="assests/img/screen_shot_account.png">
+                    <img src="assests/img/screen_shot_account_settings.png">
+                </div>
             </div>
             <div id="download" class="container">
                 <h2>Download</h2>
                 <div class="spacer-line"></div>
-                <img src="assests/img/googleplay.png" height="72px" alt="Google Play Store Download">
+                <a href="https://github.com/MusicQueue/MusicQueue/releases" target="_blank" rel="noopener">
+                    <button type="button" class="btn github-btn">
+                        <img src="assests/icons/github.svg" height="22px" style="margin-bottom: 2px; margin-right: 10px;">
+                        GitHub Releases
+                    </button>
+                </a>
             </div>
             <div id="team" class="container">
                 <h2>Our Team</h2>
@@ -159,13 +175,21 @@
             <div id="deliverables" class="container">
                 <h2>Deliverables</h2>
                 <div class="spacer-line"></div>
-                <a href="https://github.com/MusicQueue" target="_blank" rel="noopener">
-                    <button type="button" class="btn github-btn">
-                        <img src="assests/icons/github.svg" height="22px" style="margin-bottom: 2px; margin-right: 10px;">
-                        GitHub
-                    </button>
-                </a>
-                <iframe src="https://drive.google.com/embeddedfolderview?id=1qjQlGt2oh9zIOqSDk0JyLPZMvuI10eCV#list" style="margin-top: 15px; width:100%; height:auto; border:0;"></iframe>
+                <div class="flex-wrap">
+                    <a href="https://github.com/MusicQueue" target="_blank" rel="noopener">
+                        <button type="button" class="btn github-btn">
+                            <img src="assests/icons/github.svg" height="22px" style="margin-bottom: 2px; margin-right: 10px;">
+                            GitHub
+                        </button>
+                    </a>
+                    <a href="https://drive.google.com/drive/folders/1qjQlGt2oh9zIOqSDk0JyLPZMvuI10eCV?usp=sharing" target="_blank" rel="noopener">
+                        <button type="button" class="btn github-btn" style="margin-left: 10px;">
+                            <img src="assests/icons/google-drive.svg" height="22px" style="margin-bottom: 2px; margin-right: 10px;">
+                            Google Drive
+                        </button>
+                    </a>
+                </div>
+                <iframe src="https://drive.google.com/embeddedfolderview?id=1qjQlGt2oh9zIOqSDk0JyLPZMvuI10eCV#list" style="margin-top: 15px; width:100%; height: 500px; border:0;"></iframe>
             </div>
         </div>
         <nav class="navbar navbar-dark primary footer">

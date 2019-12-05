@@ -4,7 +4,7 @@
     --font-color-light: #FAFAFA;
 
     --color-primary: #64B5F6;
-    --color-dark: #263238;
+    --color-dark: #192125;
 }
 
 html, body {
@@ -130,6 +130,21 @@ nav {
 .card.team-member {
     width: 258px !important;
     height: auto !important;
+}
+
+.screen-shot {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.screen-shot img {
+    height: 500px;
+    width: auto;
+    border-radius: 10px;
+    border: 2px solid var(--color-primary);
+    margin-right: 15px;
+    margin-bottom: 15px;
 }
 
 /* Team Section */
